@@ -1,0 +1,69 @@
+.road-map {
+  background: #21103d;
+  padding: 40px 0px;
+  h1 {
+    text-align: center;
+    color: #fff;
+    span {
+      color: #ffe33a;
+    }
+    margin-bottom: 28px;
+  }
+}
+
+.card {
+  text-align: center;
+  background-color: #010002;
+  padding: 35px 20px;
+  height: 350px;
+  //   margin-right: 5px;
+  h2 {
+    margin-bottom: 0px;
+    font-size: 34px;
+    color: #8941c1;
+  }
+  h3 {
+    margin-bottom: 0px;
+    font-size: 34px;
+    display: inline-block;
+    color: #fff;
+    margin: auto;
+    margin-top: -14px;
+  }
+  span {
+    width: 80px;
+    height: 4px;
+    display: block;
+    margin: auto;
+    background: #21103e;
+  }
+  p {
+    margin-top: 12px;
+    color: #fff;
+  }
+}
+
+.faqs {
+  margin-top: 58px;
+}
+
+.custom-collapse {
+  .ant-collapse-item {
+    border-top: 2px solid #fff !important;
+  }
+  .ant-collapse-item:last-of-type {
+    border-bottom: 2px solid #fff !important;
+  }
+
+  .ant-collapse-header {
+    color: #fff !important;
+    .anticon-plus {
+      color: #fff !important;
+      font-size: 18px !important;
+    }
+  }
+  .ant-collapse-content {
+    color: #fff !important;
+    background-color: #07020c2e !important;
+  }
+}

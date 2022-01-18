@@ -1,0 +1,45 @@
+.footer {
+  background-color: #000000;
+  padding: 12px 0;
+}
+
+.copy-right {
+  display: flex !important;
+  justify-content: end;
+  align-items: center;
+  p {
+    color: #fff;
+    margin: 0;
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  .ant-menu {
+    display: flex;
+    align-items: center;
+    background-color: transparent !important;
+    border: 0;
+    li {
+      margin: 0 !important;
+      span {
+        a {
+          color: #fff !important;
+        }
+      }
+
+      border-bottom: 2px solid transparent;
+      transition: all 0.6s ease-in-out;
+
+      &:hover {
+        border-bottom: 2px solid #0053c3;
+      }
+    }
+
+    &.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+      background-color: transparent !important;
+      border-bottom: 2px solid #0053c3;
+    }
+  }
+}

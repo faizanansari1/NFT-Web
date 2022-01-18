@@ -1,0 +1,28 @@
+.gallery {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #110818;
+  h2 {
+    text-align: center;
+    font-size: 33px;
+    color: #fff;
+    span {
+      color: #ffe33a;
+    }
+  }
+}
+
+.galley-box {
+  width: 230px;
+  img {
+    height: 250px;
+    width: 100%;
+    border-radius: 18px;
+  }
+  h3 {
+    text-align: center;
+    margin: 0;
+    margin-top: 8px;
+    color: #fff;
+  }
+}

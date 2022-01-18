@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import "~@fontsource/gloria-hallelujah/index.css"; // Weight 400.
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&family=Staatliches&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: "AlloyInk";
+  src: local("AlloyInk"), url("./fonts/AlloyInk-nRLyO.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NetVCR";
+  src: local("NetVCR"),
+    url("./fonts/FontsFree-Net-VCR_OSD_MONO.ttf") format("truetype");
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue" " ",
+    sans-serif;
+  // font-family: "Press Start 2P";
+  // font-family: "Gloria Hallelujah";
+  font-family: "NetVCR";
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.font-face-gm {
+  font-family: "AlloyInk";
+}
+
+.main-container {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.inner-container {
+  width: 985px;
+  margin: auto !important;
+}
