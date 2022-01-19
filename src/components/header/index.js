@@ -15,32 +15,34 @@ export const Header = () => {
 
   const menu = (
     <Menu>
-      <Menu.Item>
+      <Menu.Divider />
+
+      <Menu.Item key={1}>
         <Link to="opensea" spy={true} smooth={true}>
           Opensea
         </Link>
       </Menu.Item>
-      <Menu.Item>
+      <Menu.Item key={2}>
         <Link to="about" spy={true} smooth={true}>
           About
         </Link>
       </Menu.Item>
-      <Menu.Item>
+      <Menu.Item key={3}>
         <Link to="twitter" spy={true} smooth={true}>
           Twitter
         </Link>
       </Menu.Item>
-      <Menu.Item>
+      <Menu.Item key={4}>
         <Link to="discord" spy={true} smooth={true}>
           Discord
         </Link>
       </Menu.Item>
-      <Menu.Item>
+      <Menu.Item key={5}>
         <Link to="future-plans" spy={true} smooth={true}>
           Futuer Plans
         </Link>
       </Menu.Item>
-      <Menu.Item>
+      <Menu.Item key={6}>
         <Link to="faqs" spy={true} smooth={true}>
           FAQs
         </Link>
