@@ -58,9 +58,11 @@ export const Header = () => {
             <p>FROSS GOD FROSSY </p>
           </div>
         </Col>
+
         <Col xl={{ span: 18 }} className="hide-nav">
           <div className="main-nav">{menu}</div>
         </Col>
+
         <div className="show-mobile">
           <Button type="primary" onClick={showDrawer} className="menu-btn">
             <MenuFoldOutlined />

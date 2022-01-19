@@ -46,7 +46,7 @@ code {
   margin: auto !important;
 }
 .show-mobile {
-  display: none;
+  display: none !important;
 }
 
 // desktop
@@ -58,9 +58,9 @@ code {
     margin-top: 30px;
   }
   .right-collection {
-    img {
-      height: 87% !important;
-    }
+    // img {
+    //   height: 90% !important;
+    // }
   }
   .content-box {
     // margin: 10px;
@@ -79,9 +79,15 @@ code {
     padding: 14px 0px;
     display: flex !important;
     align-items: center;
-    display: block;
+    display: block !important;
   }
-
+}
+@media only screen and (min-width: 944px) and (max-width: 990px) {
+  .show-mobile {
+    // display: none !important;
+  }
+}
+@media only screen and (max-width: 992px) {
   .content-text {
     margin-top: 0 !important;
   }
@@ -156,6 +162,7 @@ code {
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
   .sold-card {
+    width: 50%;
     max-width: 50% !important;
     margin-bottom: 22px;
   }
@@ -208,8 +215,9 @@ code {
   }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 576px) {
+@media only screen and (min-width: 460px) and (max-width: 576px) {
   .sold-card {
+    width: 100%;
     max-width: 100% !important;
     margin-bottom: 22px;
   }
@@ -260,4 +268,14 @@ code {
       margin-top: 14px;
     }
   }
+
+  .content-text h1 {
+    font-size: 37px;
+  }
+  .content-text h2 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 576px) {
 }
