@@ -31,7 +31,7 @@ export const Rarity = () => {
         <div className="inner-container rarity">
           <h2 className="font-face-gm">RARITY</h2>
           {description.map((d) => (
-            <div className="rarity-content">
+            <div className="rarity-content" key={d.content}>
               <img src="/assets/images/check.png" alt="check" />
               <p>{d.content}</p>
             </div>

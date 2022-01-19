@@ -1,7 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
-@import "~@fontsource/gloria-hallelujah/index.css"; // Weight 400.
-@import url("https://fonts.googleapis.com/css2?family=Space+Mono&family=Staatliches&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -46,6 +42,222 @@ code {
   padding-right: 60px;
 }
 .inner-container {
-  width: 985px;
+  width: 80%;
   margin: auto !important;
+}
+.show-mobile {
+  display: none;
+}
+
+// desktop
+@media only screen and (min-width: 992px) and (max-width: 1600px) {
+  .sold-card {
+    max-width: 20% !important;
+  }
+  .galley-row2 {
+    margin-top: 30px;
+  }
+  .right-collection {
+    img {
+      height: 87% !important;
+    }
+  }
+  .content-box {
+    // margin: 10px;
+    width: 25%;
+  }
+  .slide-content-box {
+    width: 25%;
+  }
+}
+// for header
+@media only screen and (max-width: 942px) {
+  .hide-nav {
+    display: none;
+  }
+  .show-mobile {
+    padding: 14px 0px;
+    display: flex !important;
+    align-items: center;
+    display: block;
+  }
+
+  .content-text {
+    margin-top: 0 !important;
+  }
+
+  .head-content {
+    padding-top: 12px !important;
+    justify-content: center;
+    background-color: #21103d;
+  }
+  .slide-content {
+    padding-top: 12px !important;
+    justify-content: center;
+    background-color: #21103d;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .sold-card {
+    max-width: 25% !important;
+    margin-bottom: 22px;
+  }
+
+  .footer-nav {
+    // border: 2px solid red !important;
+    display: none;
+  }
+  .copy-right {
+    margin: auto;
+  }
+  .right-collection {
+    margin-top: 12px;
+  }
+  .galley-box {
+    margin-bottom: 16px;
+  }
+  .right-future {
+    margin-bottom: 16px !important;
+  }
+
+  .content-box {
+    margin-right: 12px;
+    margin-bottom: 12px;
+  }
+  .slide-content-box {
+    margin-right: 12px;
+    margin-bottom: 12px;
+  }
+  .left-collection {
+    h1 {
+      text-align: center;
+      font-size: 30px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+    }
+    span {
+      margin: auto;
+      margin-top: 14px;
+    }
+  }
+  .left-future {
+    h1 {
+      text-align: center;
+    }
+    span {
+      margin: auto;
+      width: 180px;
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .sold-card {
+    max-width: 50% !important;
+    margin-bottom: 22px;
+  }
+  .footer-nav {
+    // border: 2px solid red !important;
+    display: none;
+  }
+  .copy-right {
+    margin: auto;
+  }
+  .content-text {
+    h1 {
+      font-size: 68px;
+    }
+    h2 {
+      font-size: 64px;
+    }
+  }
+  .right-collection {
+    margin-top: 12px;
+  }
+
+  .galley-box {
+    margin-bottom: 16px;
+  }
+  .right-future {
+    margin-bottom: 16px !important;
+  }
+  .content-box {
+    margin-right: 12px;
+    margin-bottom: 12px;
+  }
+  .slide-content-box {
+    margin-right: 12px;
+    margin-bottom: 12px;
+  }
+  .left-collection {
+    h1 {
+      text-align: center;
+      font-size: 30px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+    }
+    span {
+      margin: auto;
+      margin-top: 14px;
+    }
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 576px) {
+  .sold-card {
+    max-width: 100% !important;
+    margin-bottom: 22px;
+  }
+  .footer-nav {
+    // border: 2px solid red !important;
+    display: none;
+  }
+  .copy-right {
+    margin: auto;
+  }
+  .content-text {
+    h1 {
+      font-size: 50px;
+    }
+    h2 {
+      font-size: 50px;
+    }
+  }
+  .right-collection {
+    margin-top: 12px;
+  }
+  .galley-box {
+    margin-bottom: 16px;
+  }
+
+  .right-future {
+    margin-bottom: 16px !important;
+  }
+  .content-box {
+    margin-right: 12px;
+    margin-bottom: 12px;
+  }
+  .slide-content-box {
+    margin-right: 12px;
+    margin-bottom: 12px;
+  }
+  .left-collection {
+    h1 {
+      text-align: center;
+      font-size: 30px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+    }
+    span {
+      margin: auto;
+      margin-top: 14px;
+    }
+  }
 }

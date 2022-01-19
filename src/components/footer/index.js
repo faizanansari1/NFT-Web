@@ -1,39 +1,40 @@
 import { Col, Row, Menu } from "antd";
 import React from "react";
+import { Link } from "react-scroll";
 import "./style.scss";
 
 export const Footer = () => {
   const menu = (
     <Menu>
       <Menu.Item>
-        <a rel="noopener noreferrer" href="#">
+        <Link to="opensea" spy={true} smooth={true}>
           Opensea
-        </a>
+        </Link>
       </Menu.Item>
       <Menu.Item>
-        <a rel="noopener noreferrer" href="#">
+        <Link to="about" spy={true} smooth={true}>
           About
-        </a>
+        </Link>
       </Menu.Item>
       <Menu.Item>
-        <a rel="noopener noreferrer" href="#">
+        <Link to="twitter" spy={true} smooth={true}>
           Twitter
-        </a>
+        </Link>
       </Menu.Item>
       <Menu.Item>
-        <a rel="noopener noreferrer" href="#">
+        <Link to="discord" spy={true} smooth={true}>
           Discord
-        </a>
+        </Link>
       </Menu.Item>
       <Menu.Item>
-        <a rel="noopener noreferrer" href="#">
+        <Link to="future-plans" spy={true} smooth={true}>
           Futuer Plans
-        </a>
+        </Link>
       </Menu.Item>
       <Menu.Item>
-        <a rel="noopener noreferrer" href="#">
+        <Link to="faqs" spy={true} smooth={true}>
           FAQs
-        </a>
+        </Link>
       </Menu.Item>
     </Menu>
   );
@@ -41,10 +42,10 @@ export const Footer = () => {
     <>
       <div className="footer">
         <Row className="inner-container">
-          <Col span={18}>
-            <div className="nav">{menu}</div>
+          <Col xl={{ span: 18 }} lg={{ span: 16 }}>
+            <div className="footer-nav">{menu}</div>
           </Col>
-          <Col span={6} className="copy-right">
+          <Col xl={{ span: 6 }} lg={{ span: 8 }} className="copy-right">
             <p>&copy; All Rights Reserved 2022</p>
           </Col>
         </Row>

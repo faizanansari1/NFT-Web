@@ -46,13 +46,15 @@ export const RoadMap = () => {
           <h1 className="font-face-gm">
             ROADMAP <span>PHASE 1</span>
           </h1>
-          <Row style={{ justifyContent: "space-between" }}>
+          <Row gutter={17}>
             {data.map((d) => (
-              <Col span={4} className="card">
-                <h2>{d.value}</h2>
-                <h3>{d.status}</h3>
-                <span></span>
-                <p>{d.description}</p>
+              <Col key={d.value} className="sold-card">
+                <div className="card">
+                  <h2>{d.value}</h2>
+                  <h3>{d.status}</h3>
+                  <span></span>
+                  <p>{d.description}</p>
+                </div>
               </Col>
             ))}
           </Row>

@@ -6,7 +6,7 @@ export const Collection = () => {
     <>
       <div style={{ background: "#231047" }} id="about">
         <Row className="collection inner-container" gutter={10}>
-          <Col span={12}>
+          <Col lg={{ span: 12 }} md={{ span: 24 }} sm={{ span: 24 }}>
             <div className="left-collection">
               <h1 className="font-face-gm">FROSS GOD FROSSSY</h1>
               <h2 className="font-face-gm">PUNKS collection!</h2>
@@ -23,7 +23,13 @@ export const Collection = () => {
               </p>
             </div>
           </Col>
-          <Col span={12} className="right-collection">
+          <Col
+            lg={{ span: 12 }}
+            md={{ span: 24 }}
+            sm={{ span: 24 }}
+            xs={{ span: 24 }}
+            className="right-collection"
+          >
             <img src="/assets/images/img9.png" alt="img9" />
             <Button className="font-face-gm">Charley Da Skunk</Button>
           </Col>

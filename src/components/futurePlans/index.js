@@ -9,10 +9,15 @@ export const FuturePlans = () => {
         id="future-plans"
       >
         <Row className="future inner-container" gutter={10}>
-          <Col span={12} className="right-future">
+          <Col
+            lg={{ span: 12 }}
+            md={{ span: 24 }}
+            sm={{ span: 24 }}
+            className="right-future"
+          >
             <img src="/assets/images/img17.png" alt="img17" />
           </Col>
-          <Col span={12}>
+          <Col lg={{ span: 12 }} md={{ span: 24 }} sm={{ span: 24 }}>
             <div className="left-future">
               <h1>FUTURE PLANS</h1>
               <span>&nbsp;</span>
